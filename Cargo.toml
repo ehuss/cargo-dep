@@ -1,0 +1,15 @@
+[package]
+name = "cargo-dep"
+version = "0.1.0"
+authors = ["Eric Huss <eric@huss.org>"]
+license = "MIT"
+repository = "https://github.com/ehuss/cargo-dep"
+description = "Graph cargo dependencies."
+categories = ["development-tools::cargo-plugins"]
+keywords = ["cargo"]
+
+[dependencies]
+cargo_metadata = "0.5"
+clap = "2.32"
+failure = "0.1"
+semver = "0.9"
